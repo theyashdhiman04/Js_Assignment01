@@ -1,1 +1,3 @@
-# Js_Assignment01
+# JAVASCRIPT ASSIGNMENT01
+
+This JavaScript code defines and implements a simple NFT (Non-Fungible Token) management system themed around tech gadgets. It begins by creating an empty array, nftCollection, to store the NFTs. The mintNFT function takes metadata parameters like name, category, brand, specs, price, and release year, and creates an NFT object which is then added to nftCollection, also logging a message indicating successful minting. The listNFTs function iterates over the nftCollection array, printing each NFT's metadata to the console. The getTotalSupply function logs the total number of minted NFTs by printing the length of the nftCollection array. Finally, the script demonstrates the system by minting four different tech gadgets (iPhone 13, Galaxy S21, MacBook Pro, and Surface Pro 7), listing all NFTs, and displaying the total supply.
